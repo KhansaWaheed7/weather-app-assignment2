@@ -27,7 +27,6 @@ class _HomePageState extends State<HomePage> {
   List<String> _searchHistory = [];
   int _currentIndex = 0;
 
-  // Pages for bottom navigation
   final List<Widget> _pages = [];
 
   @override
@@ -37,7 +36,6 @@ class _HomePageState extends State<HomePage> {
     _loadLastCity();
     _loadSearchHistory();
 
-    // Initialize pages
     _pages.add(_buildHomeContent());
     _pages.add(_buildForecastContent());
   }
@@ -47,7 +45,7 @@ class _HomePageState extends State<HomePage> {
       physics: AlwaysScrollableScrollPhysics(),
       child: Column(
         children: [
-          SizedBox(height: 10), // Reduced top margin
+          SizedBox(height: 10), 
           _buildCurrentWeather(),
           SizedBox(height: 24),
           _buildHourlyForecast(),
@@ -70,7 +68,7 @@ class _HomePageState extends State<HomePage> {
                   TextButton(
                     onPressed: () {
                       setState(() {
-                        _currentIndex = 1; // Switch to forecast page
+                        _currentIndex = 1; 
                       });
                     },
                     child: Row(
@@ -186,7 +184,7 @@ class _HomePageState extends State<HomePage> {
                 }).toList(),
               ),
             ),
-          SizedBox(height: 10), // Reduced bottom margin
+          SizedBox(height: 10), 
         ],
       ),
     );
@@ -517,7 +515,7 @@ class _HomePageState extends State<HomePage> {
 
   Widget _buildSearchBar() {
     return Container(
-      margin: EdgeInsets.fromLTRB(20, 10, 20, 10), // Added top and bottom margin
+      margin: EdgeInsets.fromLTRB(20, 10, 20, 10), 
       padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       decoration: BoxDecoration(
         color: Colors.white,
@@ -653,7 +651,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[50],
-      body: SafeArea( // Added SafeArea here for top and bottom margins
+      body: SafeArea( 
         child: Column(
           children: [
             _buildSearchBar(),
@@ -661,7 +659,7 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      bottomNavigationBar: SafeArea( // Added SafeArea for bottom navigation bar
+      bottomNavigationBar: SafeArea( 
         child: BottomNavigationBar(
           currentIndex: _currentIndex,
           onTap: (index) {
