@@ -170,8 +170,8 @@ class ForecastPage extends StatelessWidget {
         ],
       ),
     )
-        : Padding( // Added padding for top and bottom margins
-      padding: EdgeInsets.only(top: 10, bottom: 10), // Reduced top and bottom padding
+        : Padding( 
+      padding: EdgeInsets.only(top: 10, bottom: 10), 
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
