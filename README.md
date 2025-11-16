@@ -10,12 +10,7 @@ A Flutter mobile weather application that displays current weather and 5-day for
 - Error handling for network issues
 
 ## UI
-<img width="722" height="1673" alt="home1" src="https://github.com/user-attachments/assets/aede2d60-62f5-4528-8d91-7b90fe1aa8c8" />
-<img width="722" height="1673" alt="home2" src="https://github.com/user-attachments/assets/c8c5551e-92b5-46cf-b3eb-fb7bfe35eb4a" />
-<img width="722" height="1673" alt="home3" src="https://github.com/user-attachments/assets/d5ef4160-9416-4caf-9669-14c0e22b326a" />
-<img width="722" height="1673" alt="Forecast1" src="https://github.com/user-attachments/assets/aff4d791-747a-4f5f-aa84-a4a409ac141b" />
-<img width="722" height="1673" alt="Forecast2" src="https://github.com/user-attachments/assets/feef29f0-b514-4a89-95f1-21e0cf492c00" />
-<img width="722" height="1673" alt="incorrect" src="https://github.com/user-attachments/assets/7c85eaa7-c842-4736-a858-80a13b0c9892" />
+<img width="722" height="1673" alt="home1" src="https://github.com/user-attachments/assets/aede2d60-62f5-4528-8d91-7b90fe1aa8c8" /> <img width="722" height="1673" alt="home2" src="https://github.com/user-attachments/assets/c8c5551e-92b5-46cf-b3eb-fb7bfe35eb4a" /> <img width="722" height="1673" alt="home3" src="https://github.com/user-attachments/assets/d5ef4160-9416-4caf-9669-14c0e22b326a" /> <img width="722" height="1673" alt="Forecast1" src="https://github.com/user-attachments/assets/aff4d791-747a-4f5f-aa84-a4a409ac141b" /> <img width="722" height="1673" alt="Forecast2" src="https://github.com/user-attachments/assets/feef29f0-b514-4a89-95f1-21e0cf492c00" /> <img width="722" height="1673" alt="incorrect" src="https://github.com/user-attachments/assets/7c85eaa7-c842-4736-a858-80a13b0c9892" />
 
 ## Quick Setup
 
